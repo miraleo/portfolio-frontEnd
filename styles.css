@@ -1,37 +1,28 @@
-header {
-    height: 30%;
-    position: sticky;
-    background-color: lightpink;
+.navbar nav {
+    .ms-auto
 }
 
-#login {
+.card {
+    margin-top: 2em;
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 2em;
     text-align: center;
-    margin-left: 95%;
-    height: 10%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.container {
-    /* Content is centered horizontally */
-    align-items: center;
-    display: flex;
-
-    /* Used to set the position of text */
-    position: relative;
+.card img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.container__content {
-    /* We won't see the separator line */
-    background: #fff;
-
-    /* Displayed at the center of container */
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.card .card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: left;
 }
 
-.container__separator {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    height: 1px;
-    width: 100%;
+.card .card-text {
+    text-align: left;
 }
